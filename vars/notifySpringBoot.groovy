@@ -1,4 +1,4 @@
- def call() {
+def call() {
     def buildNumber = env.BUILD_NUMBER
     def buildStatus = currentBuild.currentResult  // SUCCESS, FAILURE, UNSTABLE, etc.
 
