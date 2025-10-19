@@ -1,4 +1,3 @@
-
 def call() {
     // Configuration
     def webhookUrl = "http://localhost:8081/api/jenkins-logs/webhook"
@@ -67,4 +66,4 @@ curl -X POST "${fullUrl}" -w "\\n%%{http_code}\"""",
         e.printStackTrace()
         return false
     }
-} 
+}
