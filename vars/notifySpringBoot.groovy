@@ -1,7 +1,7 @@
 def call() {
     // Configuration
     def webhookUrl = "http://localhost:8081/api/jenkins-logs/webhook"
-    def token = "119b088237bb9828d10be9d85d1470fc49"
+    def token = "11b43c9d5a3e123cc2bfa57cb6462fca85"
     
     // Get Jenkins build information
     def jobName = env.JOB_NAME
